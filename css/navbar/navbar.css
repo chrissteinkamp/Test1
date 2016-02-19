@@ -1,0 +1,52 @@
+.navbar-toggle {
+		z-index: +1;
+		float:right;
+		background-color: black;
+		
+		}
+.navbar- {
+		float: left;
+		}
+		
+.navbar {
+	margin: 0 auto;
+	
+	}
+	
+
+a#white:link {color: white;}
+a#white:active {color: white;}
+a#white:visited {color: white;}
+a#white:hover {color: gray;}
+	
+.container {
+		background-color: #8F0000;
+		border: medium double black;
+		border-width: auto;
+		border-radius: 50px;
+		width: auto;
+		}
+
+.nav-tabs {
+		margin-top: 150px;
+		color:white;
+		}
+
+
+#tab2  {
+		background-color: #8F0000;
+		border: medium solid black;
+		border-width: 2px;
+		border-radius: 25px 25px 0px 0px;
+		float: left;
+	}	
+
+#tab3  {
+		background-color: #8F0000;
+		border: medium solid black;
+		border-width: 2px;
+		border-radius: 25px 25px 0px 0px;
+		float: left;
+}
+
+

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8" >    
+		<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+		<link rel="stylesheet/less" type="text/css" href="styles.less" />
+		<link rel="stylesheet" href="css/index/index.css" />
+		<link rel="stylesheet" href="tictactoe.css" />
+		<link rel="stylesheet" href="css/navbar/navbar.css" />
+	</head>
+		
+		
+	<body>	
+
+			<!--top bar links-->	
+	<div class="nav">
+					<div class="navbar navbar-inverse navbar-fixed-top">
+						<div class="container">
+							<!--<a href = "index.html" class = "navbar-brand">Chris Steinkamp</a>-->
+							
+							
+							<!--mobile menu bar graphic -->
+							<button class ="navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+								<span class = "icon-bar"></span>
+								<span class = "icon-bar"></span>
+								<span class = "icon-bar"></span>
+							</button>
+							<div class="collapse navbar-collapse navHeaderCollapse">
+								<ul class = "nav navbar-nav navbar-right">
+									<li><a  href="index.html" id="white"> Home </a></li>
+						
+									<li><a  href="calc.html" class="dropdown-toggle" id="white"> Calculator</a></li>
+									
+									<li class= "dropdown-menu-right">
+										<a  href="#" class="dropdown-toggle" data-toggle = "dropdown" id="white"> AngularJS <b class="caret"></b></a>
+										<ul class = "dropdown-menu">
+											<li class=""><a href="ass6.html">Angular Tutorial</a></li>
+										</ul>
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+			<!--Tabs-->
+			<ul class="nav nav-tabs">
+				<li id="tab2"><a id="white" href="index.html" >Profile</a></li>
+				<li id="tab3"><a id="white" href="aboutlogin.html">Login</a></li>
+			</ul>
+
+			
+			<center>
+			<div id="carousel">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			  </ol>
+						
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner">
+				<div class="item active">
+					<a  href="https://www.linkedin.com/pub/chris-steinkamp/a0/51a/166" title="LinkedIn">
+						<img style="width:1200px; height: 315px;" src="img/linkedin.png" alt="LinkedIn icon" class="img-thumbnail"/>
+					</a>
+				  <div class="carousel-caption" id="white">
+					  <h3 id="carousel-cap">My LinkedIn</h3>
+				  </div>
+				</div>
+				<div class="item">
+				  <a href="documents/resume.pdf" title="Resume">
+				  <img style="width:1200px; height: 315px;" src="img/resume.jpg" alt="Resume icon" class="img-thumbnail"/>
+				  </a>
+				  <div class="carousel-caption" id="white">
+					  <h3 id="carousel-cap">My Resume</h3>
+				  </div>
+				</div>
+			  </div>
+			 
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			  </a>
+			</div> <!-- Carousel -->	
+			</div>
+			
+			
+			
+			
+			
+			
+	
+		<!--Main About Me Section-->			
+			 <div class="col-lg-6"> 
+				<div class="about-wrapper">
+					<div class="aboutmeheader">
+						<h2><b><u>About Me</u></b></h2>
+					</div>
+					
+						<div class="aboutmeparagraph">
+							<p style="text-indent:50px">
+							My name is Christopher Steven Steinkamp, and I am a student at the 
+							University of Louisville.
+							I plan to graduate in May 2015 with a Major in Computer
+							</p>
+							<div class="logo-wrapper">	
+								<a href="http://uofl.edu">
+								<img color="red" class="logo" src="UofLouisville.png" alt="http://uofl.edu"></img>
+								</a>
+							</div>
+							<p>
+							Information Systems with focuses in both Information Security
+							and Web-Development as well as a Minor in Management. 
+							I have interned with the Warehouse Development Team at 
+							Great American Insurance Group, and I used Oracle to work 
+							with their enterprise and financial data warehouses.
+							</p>
+						</div>
+				</div>
+				</div>
+
+
+		
+
+			<!--<div class="row">          link pictures
+			  <div class="col-md-6">
+				<div class="aboutImages">
+					<h3><u>My Resume</u></h3>
+					<a href="documents/resume.pdf" title="Resume">
+					<img style="width:250px; height: 250px;" src="img/resume.jpg" alt="Resume icon" class="img-thumbnail"/>
+					</a>
+				</div>
+			  </div>
+			  <div class="col-md-6"> 
+				<div class="aboutImages">
+					<h3><u>My LinkedIn</u></h3>
+					<a  href="https://www.linkedin.com/pub/chris-steinkamp/a0/51a/166" title="LinkedIn">
+					<img style="width:250px; height: 250px;" src="img/linkedin.png" alt="LinkedIn icon" class="img-thumbnail"/>
+					</a>
+				</div>
+			  </div>
+			  <!-- <div class="col-md-3"> 
+				<h3>My LinkedIn</h3>
+				<div class="aboutImages">
+					<a  href="https://www.linkedin.com/pub/chris-steinkamp/a0/51a/166" title="LinkedIn">
+					<img style="width:250px; height: 250px;" class="aboutImages" src="linkedin.png" alt="LinkedIn icon" class="img-thumbnail"/>
+					</a>
+				</div>
+			  </div>
+			 </div>-->
+			 
+		
+		
+			<!--Tic Tac Toe Container-->	
+				<div class="tictactoe">
+					<div class="tictactoetitle">
+						<h1 color="white"><b><u>Tic Tac Toe</u></b></h1>
+					</div>
+					
+						<!--table code-->	
+						<table border="0.5" cellpadding="0" cellspacing="0" class="table1">
+							<tr id="row1">
+								<td id = "cell11"></td>	<!--top left cell-->	
+								<td id = "cell12"></td>	<!--top center cell-->	
+								<td id = "cell13"></td>	<!--top right cell-->	
+							</tr>
+							<tr id="row2">
+								<td id = "cell21"></td>	<!--middle left cell-->	
+								<td id = "cell22"></td>	<!--midddle center cell-->	
+								<td id = "cell23"></td>	<!--middle right cell-->	
+							</tr>
+							<tr id="row3">
+								<td id = "cell31"></td>	<!--bottom left cell-->	
+								<td id = "cell32"></td>	<!--bottom center cell-->	
+								<td id = "cell33"></td>	<!--bottom right cell-->	
+							</tr>
+						</table>
+						
+						<!--New Game refresh link-->	
+						<div class = "newgame">
+							<a id="white"  href="index.html" style="font-size:150%">New Game</a>
+						</div>
+				</div>
+				</center>
+				
+
+				
+				<div id="fb-root">
+				</div>
+				<script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
+				<div class="fb-video" data-allowfullscreen="1" data-href="https://www.facebook.com/jbanfield/videos/1036111056409070/">
+					<div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/jbanfield/videos/1036111056409070/">
+						<a href="https://www.facebook.com/jbanfield/videos/1036111056409070/">A game worth playing?</a><p>A game worth playing? https://jerrybanfield.com/udemy/</p>Posted by
+						<a href="https://www.facebook.com/jbanfield/">Jerry Banfield</a> on Saturday, January 23, 2016</blockquote>
+					</div>
+				</div>
+				
+				<!--
+				<p> The Aviator </p>
+				<video id="video" controls="controls">
+					<source src="video/TheAviator.mp4" type="video/mp4" />
+				</video>
+				-->
+		
+
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+			<script src="js/bootstrap/bootstrap.js"></script>
+			<script src="less.js" type="text/javascript"></script>
+			<script src="tictactoe.js"></script>
+			<script src="js/carousel/carousel.js"></script>
+		</body>	
+				<!--page footer-->	
+			<footer class="main-footer" style="margin: 400px 0px 0px 0px;">
+			
+				<div id="share-buttons">
+						<!-- Buffer -->
+						<a href="https://bufferapp.com/add?url=https://simplesharebuttons.com&amp;text=Simple Share Buttons" target="_blank">
+							<img src="https://simplesharebuttons.com/images/somacro/buffer.png" alt="Buffer" />
+						</a>
+						
+						<!-- Digg -->
+						<a href="http://www.digg.com/submit?url=https://simplesharebuttons.com" target="_blank">
+							<img src="https://simplesharebuttons.com/images/somacro/diggit.png" alt="Digg" />
+						</a>
+						
+						<!-- Email -->
+						<a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
+							<img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+						</a>
+					 
+						<!-- Facebook -->
+						<a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+							<img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+						</a>
+						
+						<!-- Google+ -->
+						<a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
+							<img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+						</a>
+						
+						<!-- LinkedIn -->
+						<a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://simplesharebuttons.com" target="_blank">
+							<img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
+						</a>
+						
+						<!-- Pinterest -->
+						<a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());">
+							<img src="https://simplesharebuttons.com/images/somacro/pinterest.png" alt="Pinterest" />
+						</a>
+						
+						<!-- Print -->
+						<a href="javascript:;" onclick="window.print()">
+							<img src="https://simplesharebuttons.com/images/somacro/print.png" alt="Print" />
+						</a>
+						
+						<!-- Reddit -->
+						<a href="http://reddit.com/submit?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
+							<img src="https://simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit" />
+						</a>
+						
+						<!-- StumbleUpon-->
+						<a href="http://www.stumbleupon.com/submit?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
+							<img src="https://simplesharebuttons.com/images/somacro/stumbleupon.png" alt="StumbleUpon" />
+						</a>
+						
+						<!-- Tumblr-->
+						<a href="http://www.tumblr.com/share/link?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
+							<img src="https://simplesharebuttons.com/images/somacro/tumblr.png" alt="Tumblr" />
+						</a>
+						 
+						<!-- Twitter -->
+						<a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+							<img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+						</a>
+						
+						<!-- VK -->
+						<a href="http://vkontakte.ru/share.php?url=https://simplesharebuttons.com" target="_blank">
+							<img src="https://simplesharebuttons.com/images/somacro/vk.png" alt="VK" />
+						</a>
+						
+						<!-- Yummly -->
+						<a href="http://www.yummly.com/urb/verify?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
+							<img src="https://simplesharebuttons.com/images/somacro/yummly.png" alt="Yummly" />
+						</a>
+				</div>
+				
+				<div>
+					<div>Chris Steinkamp. All rights reserved. Copyright &copy; 2014.</div>
+				</div>
+				
+			</footer>
+</html>
